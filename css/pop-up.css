@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(245, 241, 241);
+}
+
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-content{
+    width: 500px;
+    height: 360px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    
+    padding: 0px 20px 20px 20px;
+}
+
+.main-info{
+    /* background-color: rgb(216, 214, 214); */
+    background-color:  rgb(105, 12, 211);;
+    padding: 20px;
+    color: white;
+    margin-top: 7px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 8px grey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info-button{
+    background-color: rgb(70, 70, 221);
+    color: white;
+    padding:10px;
+    border: none;
+    margin: 20px;
+    border-radius: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.medical-form-button{
+    background-color: rgb(105, 12, 211);
+    color: white;
+    padding:10px;
+    border: none;
+    text-decoration: none;
+    border-radius: 16px;
+    font-weight: 500;
+    box-shadow: 3px 3px 8px grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info-button:hover{
+    background-color: blue;
+    font-size: large
+}
+
+.medical-form-button:hover{
+    font-weight: bold;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    
+}
+
+span{
+    font-weight: bold;
+}
+
+.heading{
+    background-color: white;
+    padding:8px;
+    border-radius: 3px;
+    color: black
+}
+
+
+
+
+  @import url(//fonts.googleapis.com/css?family=Open+Sans);
